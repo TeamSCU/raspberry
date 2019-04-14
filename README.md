@@ -10,11 +10,11 @@ Python2.7
 > sudo raspi-config  
 
 之后选择摄像头并开启  
-安装python拓展包，并下载人脸识别的1.xml[https://github.com/TeamSCU/raspberry/blob/master/1.xml]到同级目录下
+安装python拓展包，并下载人脸识别的1.xml到同级目录下
 
 > sudo apt-get install python-pip  
 > sudo apt-get install python-dev   
 > sudo pip install picamera  
 > sudo apt-get install python-opencv  
 
-使用python2运行代码，即可成功开启树莓派人脸检测
+使用python2运行代码，即可成功开启树莓派人脸检测,拍照上传
